@@ -12,15 +12,15 @@ const nuevaString = "hola";
 
 // Test 2
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum =5;
 
 // Test 3
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = false;
 
 // Test 4
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Test 5
 // Resuelve el siguiente problema matemático:
@@ -43,7 +43,7 @@ function devolverString(str) {
 }
 
 // Test 8
-function suma(x, y) {
+function suma(x, y) {return (x+y);
 	// "x" e "y" son números
 	// Suma "x" e "y" juntos y devuelve el valor
 	// Tu código:
