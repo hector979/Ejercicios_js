@@ -24,11 +24,11 @@ const nuevaResta = 10 - 5 === 5;
 
 // Test 5
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40;
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Test 6
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
@@ -40,31 +40,37 @@ const nuevoModulo = 21 % 5 === null;
 function devolverString(str) {
 	// "Return" la string provista: str
 	// Tu código:
+	return str;
 }
 
 // Test 8
-function suma(x, y) {return (x+y);
+function suma(x, y) {;
 	// "x" e "y" son números
 	// Suma "x" e "y" juntos y devuelve el valor
 	// Tu código:
+	return x+y
 }
 
 // Test 9
 function resta(x, y) {
 	// Resta "y" de "x" y devuelve el valor
 	// Tu código:
+	return x-y;
 }
 
 // Test 10
-function divide(x, y) {
+function divide(x, y) {;
 	// Divide "x" entre "y" y devuelve el valor
 	// Tu código:
+	return x/y
 }
 
 // Test 11
 function multiplica(x, y) {
+	
 	// Multiplica "x" por "y" y devuelve el valor
 	// Tu código:
+	return x*y;
 }
 
 // Test 12
@@ -72,6 +78,7 @@ function sonIguales(x, y) {
 	// Devuelve "true" si "x" e "y" son iguales
 	// De lo contrario, devuelve "false"
 	// Tu código:
+	return (x===y);
 }
 
 // Test 13
@@ -79,6 +86,7 @@ function tienenMismaLongitud(str1, str2) {
 	// Devuelve "true" si las dos strings tienen la misma longitud
 	// De lo contrario, devuelve "false"
 	// Tu código:
+	return str1.length===str2.length;
 }
 
 // Test 14
@@ -86,6 +94,7 @@ function menosQueNoventa(num) {
 	// Devuelve "true" si el argumento de la función "num" es menor que noventa
 	// De lo contrario, devuelve "false"
 	// Tu código:
+	return num<90;
 }
 
 // Test 15
@@ -93,12 +102,14 @@ function mayorQueCincuenta(num) {
 	// Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
 	// De lo contrario, devuelve "false"
 	// Tu código:
+	return num>50;
 }
 
 // Test 16
 function obtenerResto(x, y) {
 	// Obten el resto de la división de "x" entre "y"
 	// Tu código:
+	return x%y;
 }
 
 // Test 17
@@ -106,6 +117,7 @@ function esPar(num) {
 	// Devuelve "true" si "num" es par
 	// De lo contrario, devuelve "false"
 	// Tu código:
+	return num /2===0;
 }
 
 // Test 18
@@ -113,6 +125,7 @@ function esImpar(num) {
 	// Devuelve "true" si "num" es impar
 	// De lo contrario, devuelve "false"
 	// Tu código:
+	return num /2===1;
 }
 
 // Test 19
@@ -120,12 +133,15 @@ function elevarAlCuadrado(num) {
 	// Devuelve el valor de "num" elevado al cuadrado
 	// ojo: No es raiz cuadrada!
 	// Tu código:
+	return num **2;
+
 }
 
 // Test 20
 function elevarAlCubo(num) {
 	// Devuelve el valor de "num" elevado al cubo
 	// Tu código:
+	return num **3;
 }
 
 // Test 21
@@ -160,6 +176,7 @@ function esPositivo(numero) {
 	//Si el número es negativo, devolver ---> "Es negativo"
 	//Si el número es 0, devuelve false
 	// Tu código:
+	return numero>=0
 }
 
 // Test 26
